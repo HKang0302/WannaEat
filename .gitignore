@@ -1,8 +1,8 @@
 # vs
 *.njsproj
-*.user
+*.njsproj.user
 
 # module
 /node_modules
 
-/obj
+/obj/Debug

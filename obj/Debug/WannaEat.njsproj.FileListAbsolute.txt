@@ -1,3 +1,0 @@
-C:\Users\Jennifer\Jennifer_docs\Projects\WannaEat\WannaEat\obj\Debug\WannaEat.njsprojAssemblyReference.cache
-C:\Users\Jennifer\Jennifer_docs\Projects\WannaEat\WannaEat\obj\Debug\WannaEat.njsproj.CoreCompileInputs.cache
-C:\Users\Jennifer\Jennifer_docs\Projects\WannaEat\WannaEat\bin\Microsoft.NodejsTools.WebRole.dll
