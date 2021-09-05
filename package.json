@@ -1,0 +1,9 @@
+{
+  "name": "wanna-eat",
+  "version": "0.0.0",
+  "description": "WannaEat",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
