@@ -1,8 +1,16 @@
-'use strict';
-var http = require('http');
-var port = process.env.PORT || 1337;
+const express = require("express");
+const path = require("path");
+const mongoose = require("mongoose"); // for DB
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+const port = process.env.PORT || 3000;
+
+const app = express();
+
+app.get('*', (req, res) => {
+    //res.send("WannaEat\n");
+    res.sendFile(path.join(__dirname, "./public/index.html"));
+});
+
+app.listen(port, () => {
+    console.log(`Server listening on port ${port}!`);
+});

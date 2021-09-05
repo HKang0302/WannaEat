@@ -1,7 +1,7 @@
 # WannaEat
 Have you experienced that you are hungry but don't know what you exactly want?
 
-We suggest food and local restaurants that you are going to visit!
+We suggest food and local restaurants that you are going to enjoy!
 
 
 ### What do we need to build (추후 추가/삭제 예정)
@@ -9,6 +9,7 @@ We suggest food and local restaurants that you are going to visit!
   * 버튼을 누르면 랜덤으로 돌려 음식 추천
   * "더이상 이 음식을 나타내지 않음" 버튼 생성
   * 음식 list 고려 필요
+  * 필터로 원하지 않는 음식 배제 가능
 * 맛집 추천
   * 최대 거리 설정
   * 유저의 현재 위치 추적

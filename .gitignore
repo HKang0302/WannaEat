@@ -1,3 +1,6 @@
 # vs
 *.njsproj
 *.user
+
+# module
+/node_modules
