@@ -5,17 +5,23 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.title}>WannaEat</Text>
+      <Text>[현재 위치]</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  title: {
+    backgroundColor: '#7ba5e8',
+    fontSize: 40,
+    color: '#fff',
+    textAlign: 'center',
+    paddingTop: 40,
+    paddingBottom: 5,
+  },
+
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // marginTop: 50
   },
 });

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WannaEat2",
-    "slug": "WannaEat2",
+    "name": "WannaEat",
+    "slug": "WannaEat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
