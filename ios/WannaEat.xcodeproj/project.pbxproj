@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* WannaEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WannaEatTests.m */; };
+		0B6798B108315E3CB19FFCF5 /* libPods-WannaEat-WannaEatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 171E56D91D91D6B5158A46B1 /* libPods-WannaEat-WannaEatTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6A0197B87DF99C0214F2C3C1 /* libPods-WannaEat-WannaEatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 620E187EF953FBC4CF107345 /* libPods-WannaEat-WannaEatTests.a */; };
-		76534FBB2BC32E5EE77EA430 /* libPods-WannaEat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4B24D3BE037BA4A3F6BE77 /* libPods-WannaEat.a */; };
+		6A09B0C0B219285F1DF6DBB6 /* libPods-WannaEat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A54A81303D8BE2732C0CE9E /* libPods-WannaEat.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* WannaEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WannaEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WannaEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WannaEatTests.m; sourceTree = "<group>"; };
-		121D4E2CA32B9B0C0A528ACD /* Pods-WannaEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat.release.xcconfig"; path = "Target Support Files/Pods-WannaEat/Pods-WannaEat.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* WannaEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WannaEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WannaEat/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WannaEat/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WannaEat/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WannaEat/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WannaEat/main.m; sourceTree = "<group>"; };
-		620E187EF953FBC4CF107345 /* libPods-WannaEat-WannaEatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WannaEat-WannaEatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171E56D91D91D6B5158A46B1 /* libPods-WannaEat-WannaEatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WannaEat-WannaEatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409EAF5FDAA5FC011D82AA83 /* Pods-WannaEat-WannaEatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat-WannaEatTests.debug.xcconfig"; path = "Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WannaEat/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D975AC1963E1DAD54E950D0D /* Pods-WannaEat-WannaEatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat-WannaEatTests.release.xcconfig"; path = "Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests.release.xcconfig"; sourceTree = "<group>"; };
-		EC231436F83EC0ED33CCE551 /* Pods-WannaEat-WannaEatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat-WannaEatTests.debug.xcconfig"; path = "Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A54A81303D8BE2732C0CE9E /* libPods-WannaEat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WannaEat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EA43701A3DF604EFEE93B4 /* Pods-WannaEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat.release.xcconfig"; path = "Target Support Files/Pods-WannaEat/Pods-WannaEat.release.xcconfig"; sourceTree = "<group>"; };
+		BCE4893DDD975DC5972CA35B /* Pods-WannaEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat.debug.xcconfig"; path = "Target Support Files/Pods-WannaEat/Pods-WannaEat.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC841C83693FB25BA96B84A /* Pods-WannaEat-WannaEatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat-WannaEatTests.release.xcconfig"; path = "Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3096CA2F0CB3299E3828F0E /* Pods-WannaEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaEat.debug.xcconfig"; path = "Target Support Files/Pods-WannaEat/Pods-WannaEat.debug.xcconfig"; sourceTree = "<group>"; };
-		FD4B24D3BE037BA4A3F6BE77 /* libPods-WannaEat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WannaEat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A0197B87DF99C0214F2C3C1 /* libPods-WannaEat-WannaEatTests.a in Frameworks */,
+				0B6798B108315E3CB19FFCF5 /* libPods-WannaEat-WannaEatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76534FBB2BC32E5EE77EA430 /* libPods-WannaEat.a in Frameworks */,
+				6A09B0C0B219285F1DF6DBB6 /* libPods-WannaEat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,19 +100,19 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				FD4B24D3BE037BA4A3F6BE77 /* libPods-WannaEat.a */,
-				620E187EF953FBC4CF107345 /* libPods-WannaEat-WannaEatTests.a */,
+				8A54A81303D8BE2732C0CE9E /* libPods-WannaEat.a */,
+				171E56D91D91D6B5158A46B1 /* libPods-WannaEat-WannaEatTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A2979279048C6D60A583A69 /* Pods */ = {
+		30ABA7C9F2BCA4E2EF68FA79 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3096CA2F0CB3299E3828F0E /* Pods-WannaEat.debug.xcconfig */,
-				121D4E2CA32B9B0C0A528ACD /* Pods-WannaEat.release.xcconfig */,
-				EC231436F83EC0ED33CCE551 /* Pods-WannaEat-WannaEatTests.debug.xcconfig */,
-				D975AC1963E1DAD54E950D0D /* Pods-WannaEat-WannaEatTests.release.xcconfig */,
+				BCE4893DDD975DC5972CA35B /* Pods-WannaEat.debug.xcconfig */,
+				A8EA43701A3DF604EFEE93B4 /* Pods-WannaEat.release.xcconfig */,
+				409EAF5FDAA5FC011D82AA83 /* Pods-WannaEat-WannaEatTests.debug.xcconfig */,
+				DCC841C83693FB25BA96B84A /* Pods-WannaEat-WannaEatTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -133,7 +133,7 @@
 				00E356EF1AD99517003FC87E /* WannaEatTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				3A2979279048C6D60A583A69 /* Pods */,
+				30ABA7C9F2BCA4E2EF68FA79 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WannaEatTests" */;
 			buildPhases = (
-				56E21E9CCDD98BBEBF077991 /* [CP] Check Pods Manifest.lock */,
+				127335489A912EF6242B3F59 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A9D0EB79CC0D544FEA6C3A2C /* [CP] Embed Pods Frameworks */,
-				45BD999BB3F67FDF97341335 /* [CP] Copy Pods Resources */,
+				AAA8F70C0530AE2EC36E5F8D /* [CP] Embed Pods Frameworks */,
+				6A52842784211F45B9242256 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WannaEat" */;
 			buildPhases = (
-				61311C3C32F671697EF4D0D1 /* [CP] Check Pods Manifest.lock */,
+				AC084F96CF2EFB78D2DF26C9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FC572E4827F73F55E74F0505 /* [CP] Embed Pods Frameworks */,
-				57BF458028B3095B92C798F9 /* [CP] Copy Pods Resources */,
+				3AB35A737C816BA5DEBAE467 /* [CP] Embed Pods Frameworks */,
+				0D19FE6555D256182CF11993 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,24 +265,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		45BD999BB3F67FDF97341335 /* [CP] Copy Pods Resources */ = {
+		0D19FE6555D256182CF11993 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		56E21E9CCDD98BBEBF077991 /* [CP] Check Pods Manifest.lock */ = {
+		127335489A912EF6242B3F59 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,24 +304,58 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		57BF458028B3095B92C798F9 /* [CP] Copy Pods Resources */ = {
+		3AB35A737C816BA5DEBAE467 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61311C3C32F671697EF4D0D1 /* [CP] Check Pods Manifest.lock */ = {
+		6A52842784211F45B9242256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA8F70C0530AE2EC36E5F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC084F96CF2EFB78D2DF26C9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,40 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9D0EB79CC0D544FEA6C3A2C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat-WannaEatTests/Pods-WannaEat-WannaEatTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC572E4827F73F55E74F0505 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaEat/Pods-WannaEat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC231436F83EC0ED33CCE551 /* Pods-WannaEat-WannaEatTests.debug.xcconfig */;
+			baseConfigurationReference = 409EAF5FDAA5FC011D82AA83 /* Pods-WannaEat-WannaEatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D975AC1963E1DAD54E950D0D /* Pods-WannaEat-WannaEatTests.release.xcconfig */;
+			baseConfigurationReference = DCC841C83693FB25BA96B84A /* Pods-WannaEat-WannaEatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3096CA2F0CB3299E3828F0E /* Pods-WannaEat.debug.xcconfig */;
+			baseConfigurationReference = BCE4893DDD975DC5972CA35B /* Pods-WannaEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 121D4E2CA32B9B0C0A528ACD /* Pods-WannaEat.release.xcconfig */;
+			baseConfigurationReference = A8EA43701A3DF604EFEE93B4 /* Pods-WannaEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
