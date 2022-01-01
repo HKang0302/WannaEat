@@ -1,27 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>WannaEat</Text>
-      <Text>[현재 위치]</Text>
-    </View>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <View style={styles.header}>
+          <Text style={styles.title}>Wanna Eat</Text>
+        </View>
+        <View style={styles.main}>
+
+        </View>
+      </View>
+    );
+  }
 }
-
 const styles = StyleSheet.create({
-  title: {
-    backgroundColor: '#7ba5e8',
-    fontSize: 40,
-    color: '#fff',
-    textAlign: 'center',
-    paddingTop: 40,
-    paddingBottom: 5,
+  container:{
+    flex: 1
   },
 
-  container: {
-    // marginTop: 50
+  title:{
+    fontSize: 30
   },
+
+  header: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    alignItems: 'center'
+  },
+
+  main:{
+    flex: 9,
+    backgroundColor: 'blue',
+  }
 });

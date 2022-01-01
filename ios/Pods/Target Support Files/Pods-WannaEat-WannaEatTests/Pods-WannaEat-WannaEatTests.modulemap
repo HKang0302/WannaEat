@@ -1,0 +1,6 @@
+module Pods_WannaEat_WannaEatTests {
+  umbrella header "Pods-WannaEat-WannaEatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
